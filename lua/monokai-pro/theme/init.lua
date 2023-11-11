@@ -13,7 +13,6 @@ local plugins = {
   "dashboard",
   "gitsign",
   "illuminate",
-  "indent_blankline",
   "lazy",
   "lsp",
   "mason",

@@ -46,7 +46,7 @@ M.setup = function(c, config, _)
     NeoTreeGitStaged = { fg = c.gitDecoration.stageModifiedResourceForeground },
     NeoTreeGitRenamed = { fg = c.gitDecoration.untrackedResourceForeground },
     NeoTreeGitUntracked = { fg = c.gitDecoration.untrackedResourceForeground },
-    NeoTreeIndentMarker = { link = "IndentBlanklineChar" },
+    NeoTreeIndentMarker = { fg = c.editorIndentGuide.background },
     NeoTreeExpander = { link = "NeoTreeDirectoryIcon" },
     NeoTreeFloatNormal = {
       bg = c.editorSuggestWidget.background,

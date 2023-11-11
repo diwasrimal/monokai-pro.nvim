@@ -42,10 +42,6 @@ local default = {
       underline_fill = false,
       bold = true,
     },
-    indent_blankline = {
-      context_highlight = "default", -- default | pro
-      context_start_underline = false,
-    },
   },
   ---@param colors Colorscheme
   override = function(colors) end,

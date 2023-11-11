@@ -8,7 +8,7 @@ M.setup = function(c, config, _)
   return {
     NvimTreeFolderIcon = { fg = c.sideBar.foreground },
 
-    NvimTreeIndentMarker = { link = "IndentBlanklineChar" },
+    NvimTreeIndentMarker = { fg = c.editorIndentGuide.background },
 
     NvimTreeNormal = { bg = sidebar_bg, fg = c.sideBar.foreground },
     NvimTreeEndOfBuffer = {

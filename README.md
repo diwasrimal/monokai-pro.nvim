@@ -42,7 +42,6 @@ Find out more here [monokai.pro](https://monokai.pro/)
 - [bufferLine.nvim](https://github.com/akinsho/bufferline.nvim)
 - [Cmp](https://github.com/hrsh7th/nvim-cmp)
 - [vim-illuminate](https://github.com/RRethy/vim-illuminate)
-- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
 - [renamer.nvim](https://github.com/filipdutescu/renamer.nvim)
@@ -131,10 +130,6 @@ require("monokai-pro").setup({
     bufferline = {
       underline_selected = false,
       underline_visible = false,
-    },
-    indent_blankline = {
-      context_highlight = "default", -- default | pro
-      context_start_underline = false,
     },
   },
   ---@param c Colorscheme
